@@ -7,6 +7,18 @@ void main() {
   var nome = "André Filipe";
   var p = 3.14;
 
+  bool estaCalor = true;
+  bool estaFrio = false;
+
+  dynamic c = "Teste";
+  print(c);
+
+  c = 10;
+  print(c);
+
+  c = false;
+  print(c);
+
   print(nome + " " + sobrenome);
   print(pi.runtimeType);
   print(nome.runtimeType);
